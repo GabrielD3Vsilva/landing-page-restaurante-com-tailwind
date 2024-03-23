@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tasty</title>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white fixed top-0 left-0 right-0 z-50 p-1">
+
+        <!-- tela adaptada para telas médias e grandes -->
+        <div class="flex justify-evenly items-center p-6">
+            <p class="text-xl font-black text-gray-400">Tasty</p>        
+
+            <ul class="hidden gap-5 md:flex">
+                <li><a href="#home" class="text-gray-700 font-bold hover:bg-green-600 hover:text-white py-2 px-4 rounded-sm transition-all ease-in-out 150">Home</a></li>
+                <li><a href="#about" class="text-gray-700 font-bold hover:bg-green-600 hover:text-white py-2 px-4 rounded-sm transition-all ease-in-out 150">About</a></li>
+                <li><a href="#services" class="text-gray-700 font-bold hover:bg-green-600 hover:text-white py-2 px-4 rounded-sm transition-all ease-in-out 150">Services</a></li>
+                <li><a href="#menu" class="text-gray-700 font-bold hover:bg-green-600 hover:text-white py-2 px-4 rounded-sm transition-all ease-in-out 150">Menu</a></li>
+                <li><a href="#contact" class="text-gray-700 font-bold hover:bg-green-600 hover:text-white py-2 px-4 rounded-sm transition-all ease-in-out 150">Contact Us</a></li>
+            </ul>
+
+            <ion-icon name="menu-outline" class="md:hidden btnOpenMenu text-gray-700 text-4xl py-2 px-4"></ion-icon>
+
+        </div>
+
+        
+        <!-- menu responsivo para telas menores -->
+        <div class="hidden md:hidden py-10 menu">
+            <ul class="text-center">
+                <li><a href="#home" class="text-gray-700 font-bold hover:bg-green-600 hover:text-white py-2 px-4 rounded-sm transition-all ease-in-out 150 block">Home</a></li>
+                <li><a href="#about" class="text-gray-700 font-bold hover:bg-green-600 hover:text-white py-2 px-4 rounded-sm transition-all ease-in-out 150 block">About</a></li>
+                <li><a href="#services" class="text-gray-700 font-bold hover:bg-green-600 hover:text-white py-2 px-4 rounded-sm transition-all ease-in-out 150 block">Services</a></li>
+                <li><a href="#menu" class="text-gray-700 font-bold hover:bg-green-600 hover:text-white py-2 px-4 rounded-sm transition-all ease-in-out 150 block">Menu</a></li>
+                <li><a href="#contact" class="text-gray-700 font-bold hover:bg-green-600 hover:text-white py-2 px-4 rounded-sm transition-all ease-in-out 150 block">Contact Us</a></li>
+             </ul>
+        </div>
+        
+    </header>
+
+    <hr id="home">
+
+    <!-- Start home -->
+    <main class="my-20 pb-20 p-20">
+        <div class="flex flex-col text-center justify-center md:flex-row md:justify-evenly md:items-center ">
+            <div>
+                <h1 class="text-5xl  md:text-7xl font-bold text-green-600 mb-9">Tasty food</h1>
+                <h2 class=" text-gray-800 font-bold text-3xl md:text-4xl md:text-start mb-8">Try the best food of <br>the week.</h2>
+
+
+                <div class="my-7">
+                    <a href="#" class="rounded-md bg-green-500 px-4 py-2 text-white hover:bg-green-800 transition-all ease-in-out 150 text-lg">View Menu</a>
+                </div>
+
+            </div>
+
+            <div class="mx-auto md:mx-0">
+                <img src="assets/img/home.png" alt="imagem de salada na tela inicial" class="md:w-96 w-64">
+            </div>
+        </div>
+
+        
+        <hr id="about">
+
+    </main>
+    <!-- End home -->
+
+    <!-- start about Section -->
+    <section class="py-16 container px-2 mx-auto">
+        <div class="flex flex-wrap-reverse justify-center gap-40 md:items-center">
+            <div class="-mt-28">
+                <img class="md:w-96 w-64 rounded-lg" src="assets/img/about.jpg" alt="representação de salada na parte sobre nós">
+            </div>
+
+            <div>
+                <div>
+                    <h2 class="text-green-500 font-black text-lg md:text-start text-center">About us</h2>
+                    <h3 class="text-3xl font-black text-gray-800 ">We cook the best <br>tasty food</h3>
+                    <p class="text-lg max-w-96">We cook the best food in the entire city, with excellent customer service, the best  meals and at the best price, visit us.</p>
+                </div>
+
+                <div class="my-7 md:text-start text-center">
+                    <a href="#" class="rounded-md bg-green-500 px-4 py-2 text-white hover:bg-green-800 transition-all ease-in-out 150 text-lg ">Explore history</a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <hr id="services">
+    </section>
+    <!-- End about Section -->
+
+
+
+    <!-- Start services section -->
+    <section class="p-20">
+        <div class="mb-8"> 
+            <h2 class="text-green-600 text-center font-black text-lg">Offering</h2>
+            <h3 class="text-3xl text-center text-gray-800">Our amazing services</h3>
+        </div>
+
+
+        <div class="flex justify-center">
+            <div class="flex justify-evenly flex-wrap">
+                <div class="p-8 flex flex-col">
+                    <div>
+                        <img src="assets/img/dish.svg" alt="representação de prato">
+                    </div>
+
+                    <div class="-mt-10">
+                        <h4 class="text-xl text-green-500 font-bold">Excellent food</h4>
+                        <p>We offer our clients excellent <br> quality services for many years <br>, with the best and delicious food <br> in the city.</p>
+                    </div>
+
+                     <hr>
+                </div>
+            
+                <div class="p-8 flex flex-col">
+                    <div>
+                        <img src="assets/img/pizza.svg" alt="representação de pizza">
+                    </div>
+                    
+                    
+                    <div class="-mt-10">
+                        <h4 class="text-xl text-green-500 font-bold">Fast food</h4>
+                        <p>We offer our clients excellent <br> quality services for many years <br>, with the best and delicious food <br> in the city.</p>
+                    </div>
+                    <hr>                    
+                </div>
+            
+                <div class="p-8 flex flex-col">
+                    <div>
+                        <img src="assets/img/truck.svg" alt="representação de veiculo para delivery">
+                    </div>
+
+                    <div class="-mt-10">
+                        <h4 class="text-xl text-green-500 font-bold">Delivery</h4>
+                        <p>We offer our clients excellent <br> quality services for many years <br>, with the best and delicious food <br> in the city.</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            
+        </div>
+
+        <hr id="menu">
+    </section>
+    <!-- End services section -->
+
+
+    <!--Start menu section-->
+    <section>
+        <h2 class="text-green-600 text-center font-black text-xl">Special</h2>
+        <h3 class="text-3xl text-center text-gray-800">Menu of the week</h3>
+
+        <div class="flex justify-evenly py-16 flex-wrap gap-5">
+            <div class="border-2 border-gray-300 p-4 rounded-lg hover:bg-green-600 hover:text-white transition-all ease-in-out 150 cursor-pointer">
+                <div>
+                    <img src="assets/img/plate1.png" alt="Barbecue salad" class="w-40">
+                </div>
+
+                <div class="p-4">
+                    <h4 class="text-lg font-black text-gray-700">Barbecue salad</h4>
+                    <p>Delicious dish</p>
+                    <p class="font-black">$22.00</p>
+                </div>
+            </div>
+
+            <div class="border-2 border-gray-300 p-4 rounded-lg hover:bg-green-600 hover:text-white transition-all ease-in-out 150 cursor-pointer">
+                <div>
+                    <img src="assets/img/plate2.png" alt="Salad with fish" class="w-40">
+                </div>
+
+                <div class="p-4">
+                    <h4 class="text-lg font-black text-gray-700">Salad with fish</h4>
+                    <p>Delicious dish</p>
+                    <p class="font-black">$12.00</p>
+                </div>
+
+            </div>
+
+            <div class="border-2 border-gray-300 p-4 rounded-lg hover:bg-green-600 hover:text-white transition-all ease-in-out 150 cursor-pointer">
+                <div>
+                    <img src="assets/img/plate3.png" alt="Spinach salad" class="w-40">
+                </div>
+
+                <div class="p-4">
+                    <h4 class="text-lg font-black text-gray-700">Spinach salad</h4>
+                    <p>Delicious dish</p>
+                    <p class="font-black">$9.50</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="flex flex-wrap-reverse justify-center items-center gap-10 md:gap-40 py-10">
+
+            <div>
+                <img src="assets/img/movil-app.png" alt="cellphone image" class=" md:w-96 w-64">
+            </div>
+
+            <div class="flex gap-4 flex-col text-center md:text-start">
+                <h2 class="text-green-600 font-black text-xl">app</h2>
+                <h3 class="text-3xl font-black text-gray-800">App is aviable</h3>
+
+                <p class="text-lg text-gray-700">Find our application and download it, you can make <br> reservations, food orders, see your deliveries on the <br> way and much more.</p>
+
+                <div class="flex gap-4 mx-auto">
+                    <a href="#"><img src="assets/img/app1.png" alt="app-1" class="w-32"></a>
+                    <a href="#"><img src="assets/img/app2.png" alt="app-2" class="w-32"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+    </section>
+    <!--End menu section-->
+
+
+
+    <!--Start contact section-->
+    <footer id="contact" class="py-10">
+
+        <div class="flex justify-evenly flex-wrap gap-4  items-center">
+            <div class="flex flex-col gap-2">
+                <h2 class="text-green-600 font-black text-xl">Let's talk</h2>
+                <h3 class="text-4xl text-gray-800">Contact us</h3>
+                <p class="text-md font-bold text-gray-600">If you want to reserve a table in our restaurant, contact us and we will <br> attend you quickly, with our 24/7 chat service.</p>
+            </div>
+
+            <div>
+                <a href="#" class="rounded-md bg-green-500 px-4 py-2 text-white hover:bg-green-800 transition-all ease-in-out 150 text-lg">Contact Us Now</a>
+            </div>
+        </div>
+
+    </footer>
+    <!--End contact section-->
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/openResponsiveMenu.js"></script>
+</body>
+</html>
